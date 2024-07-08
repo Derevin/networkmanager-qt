@@ -1,5 +1,5 @@
 include_directories(
-    ${CMAKE_SOURCE_DIR}/src/settings
+    ${PROJECT_SOURCE_DIR}/src/settings
 )
 
 set(fakeNetwork_SRCS

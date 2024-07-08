@@ -298,7 +298,7 @@ if(BUILD_QCH)
         SOURCES # using only public headers, to cover only public API
             ${NetworkManagerQt_HEADERS}
             ${NetworkManagerQt_SETTINGS_HEADERS}
-        MD_MAINPAGE "${CMAKE_SOURCE_DIR}/README.md"
+        MD_MAINPAGE "${PROJECT_SOURCE_DIR}/README.md"
         LINK_QCHS
             Qt6Core_QCH
             Qt6Network_QCH
